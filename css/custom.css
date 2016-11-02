@@ -1,0 +1,248 @@
+/* Navbar CSS */
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+ .navbar {
+	min-height:70px;
+	margin-bottom: 0;
+  background:none;
+  border:none;
+}
+
+ .navbar-nav > li > a {
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+
+.navbar-default .navbar-brand{
+  font-family: 'Brush Script MT', cursive;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  color: #FFFFFF;
+  font-size: 2.2em;
+ }
+
+ .navbar-default .navbar-brand:hover{
+  font-family: 'Brush Script MT', cursive;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  color: #ff1919;
+  font-size: 3em;
+ }
+
+ .navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+  font-size: 1.3em;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+  color:#ff1919;
+  background-color: transparent;
+}
+
+/* Navbar Button */
+
+.navbar-btn {
+  margin-top: 25px;
+	padding-top: 12px;
+  	font-family: Calibri;
+  	border:3px solid #ff1919;
+    background: none;
+    color: FFFFFF;
+}
+
+.navbar-btn:hover{
+	border:3px solid #ff1919;
+	background-color: transparent;
+  color: #ff1919;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  padding-bottom: 40px;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+/* Navbar Toggle */
+
+.navbar-toggle{
+padding: 15px 10px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .glyphicon-align-justify{
+  color: #ff1919;
+  font-size: 2.2em;
+}
+
+
+
+.glyphicon-menu-right {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #ff2b01;
+}
+.glyphicon-refresh{
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #ff2b01;
+}
+
+
+.form-control{
+  padding: 28px;
+  font-size: 1.2em;
+  color:#a8a8a8;
+}
+
+#Contact{
+  background-color:#222;
+  background-image:url(../images/map-image.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  margin-top: 30px;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+}
+
+.btn-warning {
+  background-color: #ff1919;
+  padding: 15px 50px;
+}
+
+
+.panel-title a{
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: #4462c2;
+  padding: 10px 45px;
+}
+.btn-info:hover {
+  background-color:#4462c2;
+}
+
+.has-error .form-control{
+  border-color: #ff1919;
+}
+
+.has-error .form-control:focus{
+  border-color: #ff1919;
+}
+header
+{
+  background-image:url(../images/header-bg.jpg);
+  background-repeat:none;
+  background-attachment:scroll;
+  background-position:center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size:cover;
+  text-align:center;
+  color:#fff;
+  }
+
+
+   header .intro-text
+          {
+            padding-top:300px;
+            padding-bottom:200px;
+          }
+            header .intro-text .intro-lead-in
+            {
+              font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+              font-size:40px;
+              line-height:40px;
+              margin-bottom:25px;
+              }
+              header .intro-text .intro-heading
+              {
+              font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+              text-transform:uppercase;
+              font-weight:700;
+              font-size:75px;
+              line-height:75px;
+              margin-bottom:50px;
+              }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #FFFFFF;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+.glyphicon-chevron-up{
+ color: #ff2b01;
+ font-size: 1.2em;
+}
+footer{
+  padding:10px 0;
+  text-align:center;
+}
+footer span.copyright
+{
+  line-height:40px;
+  font-size: 1.2em;
+  font-family:'Arial Narrow', Arial, sans-serif;
+ 
+  text-transform:none;
+  font-weight: 700;
+}
+footer p
+{
+  line-height:40px;
+  font-size: 1.2em;
+  font-family:'Arial Narrow', Arial, sans-serif;
+ 
+  text-transform:none;
+  font-weight: 700;
+}

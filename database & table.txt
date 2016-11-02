@@ -1,0 +1,24 @@
+CREATE DATABASE moosa
+
+--
+-- Database: `moosa`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `inbox`
+--
+
+CREATE TABLE IF NOT EXISTS `inbox` (
+  `msgid` int(11) NOT NULL,
+  `uName` varchar(60) NOT NULL,
+  `uEmail` varchar(30) NOT NULL,
+  `uMessage` text NOT NULL,
+  `seen` int(11) NOT NULL
+) ENGINE = innodb;
+
+
+
+Note
+First Run Above 2 Query in phpmyadmin for Database and Table creation.
